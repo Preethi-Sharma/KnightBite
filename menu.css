@@ -1,0 +1,67 @@
+.navbar{
+    background-color: rgb(15, 15, 15, 0.2);
+    height: 112px;
+}
+.nav-item{
+    font-weight: 400;
+    font-size: 18px;
+    padding: 15px;
+}
+.nav-link:hover{
+    color: #c680f0;
+}
+/* Nav */
+/* block-1 */
+.block-1{
+    /* display: flex; */
+
+    background-color: black;
+}
+.card{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-left: 150px;
+    background-color: transparent;
+}
+.card-body h1{
+    color: white;
+    font-size: 20px;
+}
+.card-body i{
+    color: white;
+    /* padding-left: 50px; */
+    margin-top: 20px;
+    font-size: 28px;
+}
+.card-body h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.inner{
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner2{
+    position: absolute;
+    top:400px;
+    left: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#a:hover{
+    transform: scale(0.9);
+
+}
+
+
+
